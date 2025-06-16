@@ -1,9 +1,14 @@
 .App-header {
-  margin: 40px;
+  margin: 40px 0;
 }
 
 .App-logo {
   width: 300px;
   display: block;
   margin: 0 auto;
+}
+
+.App-footer {
+  text-align: center;
+  margin: 40px 0;
 }
