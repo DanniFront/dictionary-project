@@ -1,10 +1,11 @@
+import logo from "./logo.png";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="">Hello to my dictionary</div>
+        <img src={logo} className="App-logo img-fluid" alt="logo" />
       </header>
     </div>
   );
