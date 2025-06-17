@@ -25,8 +25,13 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
+      <h2>Search for a word in React Dictionary</h2>
+      <form onSubmit={search} className="Dictionary-form">
+        <input
+          type="search"
+          onChange={handleKeywordChange}
+          className="Dictionary-search"
+        />
       </form>
       <Results results={results} />
     </div>

@@ -1,0 +1,12 @@
+.Dictionary {
+  text-align: center;
+}
+
+.Dictionary h2 {
+  font-size: 26px;
+}
+
+.Dictionary-search {
+  border: lightslategray solid 2px;
+  margin-top: 20px;
+}
