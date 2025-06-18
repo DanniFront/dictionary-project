@@ -35,14 +35,19 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h2>Search for a word in React Dictionary</h2>
-        <form onSubmit={handleSubmit} className="Dictionary-form">
-          <input
-            type="search"
-            onChange={handleKeywordChange}
-            className="Dictionary-search"
-          />
-        </form>
+        <h1>Search for a word in React Dictionary</h1>
+        <section>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="search"
+              onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
+            />
+            <div className="draft">
+              <em>Suggested words: flower, pilates, sky</em>
+            </div>
+          </form>
+        </section>
         <Results results={results} />
       </div>
     );
