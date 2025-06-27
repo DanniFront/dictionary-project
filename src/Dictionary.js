@@ -46,7 +46,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1>Search for a word in React Dictionary</h1>
+        <h1>Search in React Dictionary</h1>
         <section>
           <form onSubmit={handleSubmit}>
             <input
